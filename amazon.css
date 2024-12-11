@@ -119,12 +119,29 @@
 
 /* grid for products */
 
-.container-fluid{
-    border: 1px solid black;
+#productgrids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #e9e5e5;
+    
 }
 
-
-.container-fluid .row div{
-    border:1px solid #000;
+#productgrids .pgrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
     padding: 10px;
+    background-color: #fff;
+
+}
+
+#productgrids .pgrid .pitem{
+
+}
+
+#productgrids .pgrid .pitem h2{
+    font-size: 18px;
 }
