@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+            /* header section */
+
+#amzonHeader{
+    width: 100%;
+    min-width: 1540px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: #0f1111;
+    color:#fff;
+}
+
+#amzonHeader .amazonLogo:hover{
+    border: 1px solid #fff;
+}
+#amzonHeader .amazonLocation{
+    padding: 10px;
+}
+#amzonHeader .amazonLogo img{
+    width: 150px;
+    height: 50px;
+}
+
+#amzonHeader .amazonLocation:hover{
+    border: 1px solid #fff;
+}
+
+#amzonHeader .searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#amzonHeader .searchbar select{
+    padding: 6px;
+    background-color: rgb(205, 205, 203);
+    border-radius: 5px 0 0 5px;
+}
+#amzonHeader .searchbar input{
+    padding: 5px;
+    min-width: 400px;
+}
+#amzonHeader .searchbar i{
+    padding: 6.1px 12px;
+    background-color: rgb(247, 187, 76);
+    border-radius: 0 5px 5px 0;
+
+}
+#amzonHeader .language {
+    padding: 10px;
+}
+#amzonHeader .language select{
+    background-color: #0f1111;
+    color: #fff;
+    border: none;
+}
+#amzonHeader .language:hover{
+    border: 1px solid #fff;
+}
+#amzonHeader .signinList{
+    padding: 10px;
+}
+#amzonHeader .signinList:hover{
+    border: 1px solid #fff;
+}
+
+#amzonHeader .signinList a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+#amzonHeader .signinList a:nth-child(2){
+    font-size: 15px;
+}
+ 
+#amzonHeader .returnOrders{
+    padding: 10px;
+}
+#amzonHeader .returnOrders:hover{
+    border: 1px solid #fff;
+}
+
+#amzonHeader .cartIcon{
+    padding: 10px;
+}
+#amzonHeader .cartIcon:hover{
+    border: 1px solid #fff;
+}
+
+   /* second header */
+
+#headerBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 1400px;
+    height: 50px;
+    background-color: #2c3838;
+    color: #fff;
+}
+#headerBar div{
+    padding:11px 8px;
+}
+#headerBar div:hover{
+    border: 1px solid #fff;
+}
+
+
+/* grid for products */
+
+.container-fluid{
+    border: 1px solid black;
+}
+
+
+.container-fluid .row div{
+    border:1px solid #000;
+    padding: 10px;
+}
